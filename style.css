@@ -1,0 +1,271 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.btn {
+
+    margin-right: 50px;
+
+}
+
+.decorationNone {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    background-color: #0000ff;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Profil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #0000ff;
+}
+
+.competence {
+    border-radius: 100%;
+    background-color: #00F5B3;
+    width: 100px;
+    height: 100px;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+.fa-brands,
+.fa-solid {
+    color: #0000ff;
+}
+
+.logo {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.flexDirection {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #0000ff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #0000ff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.personnel {
+    border-radius: 100%;
+    background-color: #00F5B3;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#information {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.margin {
+    margin-right: 50px;
+}
+
+h3 {
+    color: #0000ff
+}
+
+button {
+    background: #00F5B3;
+    color: #0000ff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.BackGreen {
+    background-color: #00F5B3;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.backBlue {
+
+    padding: 10px;
+    background-color: #0000ff;
+    border-radius: 20px;
+
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.lien {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background: #0000ff;
+    flex-direction: column;
+    display: flex;
+}
+
+footer,
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn :hover {
+    color: #00F5B3;
+}
+
+#buttonCV:hover {
+    background-color: #0000ff;
+    color: #00F5B3;
+    transform: scale(1.1);
+}
+
+i:hover {
+    color: #00F5B3;
+}
+
+.presentation h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 400px;
+}
+
+#hamburger {
+    visibility: hidden
+}
+
+#navigation {
+    padding: 0;
+}
+
+.personnel:hover {
+    transform: scale(1.1);
+    background-color: #0000ff;
+    color: #00F5B3;
+
+}
+
+@media only screen and (max-width:1164px) {
+    nav {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #0000ff;
+        z-index: 1;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img1 {
+        display: none
+    }
+
+    #Profil {
+        margin-top: 70px;
+    }
+
+    .image {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .presentation {
+        padding: 50px 300px;
+    }
+
+    .backBlue {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width:886px) {
+    #hamburger {
+        visibility: visible;
+    }
+
+    #navigation {
+        display: none;
+    }
+
+    .presentation {
+        padding: 50px 70px;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    #logonav {
+        height: 70px;
+    }
+
+    #logofooter {
+        height: 50px;
+        width: 50px;
+
+    }
+}
